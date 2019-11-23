@@ -1,12 +1,22 @@
 ---
-title: Examples - Programming2
+title: Examples - Programming3
 ---
 
 ```run-kotlin
+
+class Test(val v:Int)
+
 fun main() {
+//sampleStart
     println("Hello")
+    val t = Test(44)
+    println(t.v)
+//sampleEnd
 }
 ```
+{theme='idea' lines='true'}
+
+
 
 ### Syntax Highlighting with Pygments 
 
