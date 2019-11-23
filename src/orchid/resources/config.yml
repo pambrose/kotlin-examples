@@ -5,6 +5,12 @@ site:
     siteDescription: 'This is a short blurb you can set below this index layouts sidebar.'
     avatar: '/assets/media/logo.jpg'
 
+allPages:
+  components:
+    - type: 'pageContent'
+    - type: 'kotlinPlayground'
+      selector: "pre code[class='language-run-kotlin']"
+
 theme:
   social:
     facebook: 'facebookUsername'
