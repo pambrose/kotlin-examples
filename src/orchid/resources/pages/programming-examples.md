@@ -2,6 +2,12 @@
 title: Examples - Programming
 ---
 
+```run-kotlin
+fun main() {
+    println("Hello")
+}
+```
+
 ### Syntax Highlighting with Pygments 
 
 ```pebble
